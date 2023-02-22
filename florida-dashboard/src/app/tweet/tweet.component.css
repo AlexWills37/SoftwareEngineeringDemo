@@ -1,0 +1,18 @@
+.tweet {
+  background-color: rgb(143, 208, 255);
+  width: 75%;
+  margin: auto;
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 10px;
+  border: 3px solid #555;
+  text-align: left;
+}
+.tweet-text {
+  color: black;
+}
+
+.tweet-text:visited {
+   text-decoration: none;
+    color:black; 
+  }

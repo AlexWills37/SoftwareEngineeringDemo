@@ -1,0 +1,50 @@
+
+/* Based on the title, which is set to one of five levels of red tide, the
+   background color of the box will change. */
+/* Low / harmless levels */
+.line[title="not present/background (0-1,000)"]{
+  background-color: rgb(177, 177, 177);
+}
+
+/* Very low levels */
+.line[title="very low (>1,000-10,000)"]{
+  background-color: rgb(255, 255, 255);
+}
+
+/* Moderately low levels */
+.line[title="low (>10,000-100,000)"]{
+  background-color: rgb(245, 255, 155);
+}
+
+/* Medium levels */
+.line[title="medium (>100,000-1,000,000)"]{
+  background-color: rgb(255, 212, 70);
+}
+
+/* High levels */
+.line[title="high (>1,000,000)"]{
+  background-color: rgb(255, 197, 197);
+}
+
+.line{
+	margin: auto;
+	width: 95%;
+	background-color: rgb(255, 255, 255);
+	padding: 5px;
+	border-radius: 5px;
+	border: 1px solid #DDD;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: left;
+	font-size: 12px;
+	/* //position: center; */
+	font-weight: none;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin: 4px;
+	/* //position: absolute; */
+  display: inline-block;
+}
+
+.indent{
+  text-indent: 20px;
+  font-size: 11px;
+}

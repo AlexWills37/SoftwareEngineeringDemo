@@ -1,0 +1,21 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+spotipy = "*"
+pymongo = "*"
+requests = "*"
+requests-oauthlib = "*"
+dnspython = "*"
+dateutil = "*"
+python-dateutil = "*"
+flask = "*"
+flask-pymongo = "*"
+flask-cors = "*"
+
+[requires]
+python_version = "3.8"

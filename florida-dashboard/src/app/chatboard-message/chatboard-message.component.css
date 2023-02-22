@@ -1,0 +1,49 @@
+.message{
+	margin: auto;
+	width: 90%;
+	background-color: white;
+	padding: 10px;
+	border-radius: 10px;
+	border: 3px solid #DDD;
+	font-family: Rubik, Helvetica, sans-serif;
+	text-align: left;
+	font-size: 15px;
+	position: center;
+	font-weight: none;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin: 10px;
+	position: relative;
+	display: inline-block;
+}
+.chatboard-container{
+	margin: auto;
+	width: 80%;
+	border: 3px solid #CCC;
+	background-color: white;
+	position: relative;
+}
+.name{
+	text-align: left;
+	font-size: 10px;
+	color: #BBB;
+	text-align: left;
+	border: 0px solid #DDD;
+	width: 70%;
+	margin: auto;
+	float: left;
+	font-family: Rubik, Helvetica, sans-serif;
+}
+.score{
+	text-align: center;
+	font-size: 80px;
+	color: #333;
+	text-align: center;
+	width: 20%;
+	
+	margin: auto;
+	margin-top: -120px;
+	margin-bottom: -80px;
+	border: 0px solid #DDD;
+	float: right;
+	font-family: Rubik, Helvetica, sans-serif;
+}

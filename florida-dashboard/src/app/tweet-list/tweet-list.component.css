@@ -1,0 +1,18 @@
+.twitter-container{
+	margin: 10px;
+	font-size: 16px;
+	float: left;
+	overflow: scroll;
+	height: 300px;
+}
+
+.title{
+	text-align: center;
+	font-family: Rubik, Helvetica, sans-serif;
+	font-size: 20px;
+}
+
+.twitter-bottom {
+	text-align: center;
+	font-size: 20px;
+}

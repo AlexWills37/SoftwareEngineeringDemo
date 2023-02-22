@@ -1,0 +1,67 @@
+.message{
+	margin: auto;
+	width: 90%;
+	background-color: white;
+	padding: 10px;
+	border-radius: 10px;
+	border: 3px solid #DDD;
+	font-family: Rubik, Helvetica, sans-serif;
+	text-align: left;
+	font-size: 15px;
+	position: center;
+	font-weight: none;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin: 10px;
+	position: relative;
+	display: inline-block;
+}
+.chatboard-container{
+	margin: auto;
+	width: 80%;
+	border: 3px solid #CCC;
+	background-color: white;
+	position: relative;
+	border-radius: 3px;
+	font-family: Rubik, Helvetica, sans-serif;
+	font-size: 20px;
+}
+.message-container{
+	margin: auto;
+	width: 80%;
+	border: 3px solid #CCC;
+	background-color: white;
+	position: relative;
+	border-radius: 3px;
+	height: 300px;
+	overflow: auto;
+	display: inline-block;
+}
+.name{
+	text-align: left;
+	font-size: 10px;
+	color: #BBB;
+	text-align: left;
+	font-family: Rubik, Helvetica, sans-serif;
+}
+.subtext{
+	text-align: center;
+	font-size: 10px;
+	color: #BBB;
+	text-align: center;
+	font-family: Rubik, Helvetica, sans-serif;
+}
+.messageTextBox {
+	width: 98%; 
+	height: 20px; 
+	padding: 1px;
+	position: left;
+}
+.textboxes{
+	text-align: left;
+	font-size: 10px;
+	width: 80%;
+	color: #777;
+	text-align: left;
+	font-family: Rubik, Helvetica, sans-serif;
+	display: inline-block;
+}

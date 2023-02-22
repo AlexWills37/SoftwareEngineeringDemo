@@ -1,0 +1,94 @@
+Most angular information (creating application, data binding, event binding, components,
+interfaces, services, etc.):
+https://ng-girls.gitbook.io/todo-list-tutorial/workshop-todo-list/workshop-todo-list
+
+More detailed angular information:
+https://angular.io/start
+
+HTML basics:
+https://developer.mozilla.org/en-US/docs/Learn/HTML
+
+Javascript basics:
+https://developer.mozilla.org/en-US/docs/Web/JavaScript	
+
+Brief typescript basics (although much was trial and error):
+https://www.typescriptlang.org/
+
+Sticky: objects staying on top of screen: https://www.digitalocean.com/community/tutorials/css-position-sticky 
+
+Styling object based on an attribute:
+https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors
+
+General list of attributes all components have:
+https://www.w3schools.com/tags/ref_standardattributes.asp
+
+Quick reference for CSS:
+https://adam-marsden.co.uk/css-cheat-sheet#selectors
+
+Reminder that it's *ngFor'let x of y', and not *ngFor'let x in y' (confusion from python!):
+https://stackoverflow.com/questions/34561168/angular-exception-cant-bind-to-ngforin-since-it-isnt-a-known-native-propert
+
+Javascript fetch method, along with how to retrieve data from it with .then (how to deal
+with objects of type Promise):
+https://www.javascripttutorial.net/javascript-fetch-api/
+
+NOTE: from trial/error, it seems like no lines will occur in the same method after .then().
+So when I did 
+fetch(...).then( (response) => (response.json() ).then( (json) => {this.data = json.data} );
+console.log("Hello");
+The console.log did not occur
+
+Getting a value from an input element, and passing it to typescript method:
+https://angular.io/guide/event-binding-concepts
+
+Dropdown menus:
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select
+
+Registering when a dropdown menu (and inputs in general) change:
+https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/change_event
+
+Professor Skripnikov's historical Twitter data:
+https://github.com/tbep-tech/red-tide-twitter
+
+Google Charts to display bar graph:
+https://github.com/FERNman/angular-google-charts
+
+HTML anchors to jump to different positions on the page:
+https://www.w3docs.com/snippets/html/how-to-create-an-anchor-link-to-jump-to-a-specific-part-of-a-page.html
+
+Angular Pipe to mark URL as safe for using i-frames in development mode:
+https://stackoverflow.com/questions/38037760/how-to-set-iframe-src-without-causing-unsafe-value-exception
+
+Python reminders to help analyze historical data csv:
+#	Reading file: https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files
+#   Reading CSV file: https://docs.python.org/3/library/csv.html
+#   Using 'with' keyword to simplify file streams: https://www.educative.io/edpresso/the-with-statement-in-python
+#   Using dictionaries in python: https://www.w3schools.com/python/python_dictionaries.asp
+#   Python json package: https://docs.python.org/3/library/json.html
+
+Accessing YouTube API to search for videos and retrieve them in json form:
+https://developers.google.com/explorer-help/code-samples#python
+
+Specifically modifying YouTube API request for specific searches:
+https://developers.google.com/youtube/v3/docs/search/list
+
+YouTube search result JSON format:
+https://developers.google.com/youtube/v3/docs/search#resource
+
+Confetti:
+https://github.com/loonywizard/js-confetti
+
+Default imports:
+https://mindsers.blog/post/javascript-named-imports-vs-default-imports/
+
+CSS Tutorial:
+https://www.w3schools.com/css/default.asp
+
+Flask Communication:
+https://www.digitalocean.com/community/tutorials/processing-incoming-request-data-in-flask
+
+NgFor:
+https://doc.fireflymigration.com/ngfor.html
+
+Button Press:
+https://stackoverflow.com/questions/25152463/how-to-use-typescript-on-a-button-click

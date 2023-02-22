@@ -1,0 +1,15 @@
+.youtube {
+    width: 30%;
+    padding: 20px;
+	position: relative;
+	display: flex;
+  flex-direction:column;
+  font-size:medium;
+  align-items:center;
+  justify-content:center;
+
+}
+
+.item{
+  width:300px;
+}

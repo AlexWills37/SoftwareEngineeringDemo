@@ -1,0 +1,28 @@
+.youtube {
+    width: 100%;
+	display: inline-block;
+	margin: auto;
+	margin-bottom: 30px;
+	float: center;
+
+}
+.title{
+	font-family: Rubik, Helvetica, sans-serif;
+	font-size: 20px;
+	text-align: center;
+}
+
+.youtube-box{
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  width:100%;
+}
+
+.item{
+  justify-content:center;
+  position:relative;
+  left:7%;
+  right:9%;
+
+}

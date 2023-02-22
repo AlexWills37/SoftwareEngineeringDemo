@@ -1,0 +1,14 @@
+.title {
+	position: relative;
+	font-family: Rubik, Helvetica, sans-serif;
+	font-size: 40px;
+	font-weight: none;
+	color: black;
+	text-align: center;
+	width: 100%;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	margin: auto;
+	float: center;
+	background-color: #925;
+}

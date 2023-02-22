@@ -1,0 +1,131 @@
+
+/* Make navigation bar stay on top of screen */
+app-navigation-bar {
+  position: sticky;
+}
+
+.container {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	z-index: 2;
+	position: relative;
+	height: 100%;
+	margin: auto;
+	margin-top: -160px;
+	width: 95%;
+	/* //border: 0px solid #905; */
+	/* //padding: 0px; */
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+	font-size: 5px;
+	font-weight: bold;
+	background-color: #FFF;
+	bottom: -0px;
+	padding-top: 10px;
+	padding-bottom: 30px;
+
+}
+
+.leftcontainer{
+	display: relative;
+	float: center;
+	width: auto;
+	border: 0px dashed #005;
+}
+.rightcontainer{
+	display: relative;
+	float: right;
+	width: 40%;
+	border: 0px dashed #005;
+}
+.leftrightcontainercontainer{
+	display: flex;
+	flex-grow: 1;
+	justify-content: space-between;
+	/* //flex-wrap: wrap; */
+	float: center;
+	width: 90%;
+	margin: auto;
+	margin-top: 20px;
+	border: 0px dashed #005;
+
+}
+
+.containercontainer {
+  width: auto;
+  height: 100%;
+  margin: 0;
+  margin-left: -8px;
+  margin-right: -8px;
+  margin-bottom: -8px;
+  margin-top: -8px;
+  //border: 3px solid #005;
+  background-color: #905;
+  padding-bottom: 30px;
+}
+
+.navbarorder {
+  width: 50px;
+  height: 100%;
+  position: sticky;
+  top:30%;
+  left: 96%;
+  z-index: 9;
+  background-color:rgba(17, 17, 254, 0);
+}
+
+.title {
+	bottom: 0px;
+	margin: auto;
+	position: relative;
+	width: 80%;
+	border: 0px solid #905;
+	padding: 0px;
+	font-family: Rubik, Helvetica, sans-serif;
+	text-align: center;
+	font-size: 80px;
+	font-weight: none;
+}
+
+.text {
+	margin: auto;
+	margin-top: 20px;
+	width: 80%;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-radius: 10px;
+	border: 2px solid #AAA;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: left;
+	font-size: 15px;
+	float: center;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	font-weight: none;
+}
+
+.mini-title {
+	margin: auto;
+	width: 80%;
+	padding: 10px;
+	border-radius: 10px;
+	border: 0px solid #905;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+	font-size: 15px;
+	position: left;
+	font-weight: none;
+	bottom: -450px;
+}
+.float-child {
+    width: 40%;
+    float: center;
+    padding: 15px;
+	margin: auto;
+}
+
+.float-child-right {
+    width: 35%;
+    float: right;
+    padding: 35px;
+	margin: auto;
+
+}

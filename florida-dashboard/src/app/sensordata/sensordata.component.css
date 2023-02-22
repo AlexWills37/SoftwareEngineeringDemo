@@ -1,0 +1,26 @@
+.container{
+	width: 90%;
+    float: center;
+	margin: auto;
+	border: 3px solid #CCC;
+	background-color: white;
+	position: relative;
+	border-radius: 3px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	overflow: auto;
+	height: 600px;
+	display: inline-block;
+}
+
+.title{
+  position:sticky;
+  top:0px;
+  background-color:white;
+  padding: 1px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+img{
+  border-style: solid;
+}

@@ -1,0 +1,21 @@
+
+# This is the gitignore file!
+# It tells git what files to ignore when recording changes and commits
+# NOTE: Even if a file is in the gitignore, if it is already "added" to the commit,
+#       it will still be tracked.
+# This is why it is important to create the gitignore when you first create the project.
+# If you run into issues because of this, come to office hours :)
+
+# Ignore a specific file
+APIKeys.txt
+
+# Ignore a filetype
+# (* is a wildcard. It applies to all files/directories where the * is)
+*.docx
+
+# Ignore a folder (Note that you do not start with a '/')
+florida-dashboard/.angular/cache/*
+florida-dashboard/node_modules/
+
+# Ignore a file anywhere in the repository with **
+**/config.ini
