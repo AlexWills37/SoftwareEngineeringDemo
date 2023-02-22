@@ -16,7 +16,7 @@ APIKeys.txt
 # Ignore a folder (Note that you do not start with a '/')
 florida-dashboard/.angular/cache/*
 florida-dashboard/node_modules/
-files_that_shouldnt_be_pushed/
+#files_that_shouldnt_be_pushed/
 
 
 # Ignore a file anywhere in the repository with **
