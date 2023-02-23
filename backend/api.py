@@ -12,7 +12,12 @@ For example, '/api/v1/redtide/tweets/all' will actually be http://<ourwebsite>.c
 You can also add an additional parameter, "methods=" which will be used to define what kind of messages the endpoint
 can receive, such as POST or GET. i.e. methods=['GET']
 
-
+   _____        .__                 __      __ ____ _____________ .__                          
+  /  _  \_______|__| ____   ______ /  \    /  \    |   \____    / |  |__   ___________   ____  
+ /  /_\  \_  __ \  |/ __ \ /  ___/ \   \/\/   /    |   / /     /  |  |  \_/ __ \_  __ \_/ __ \ 
+/    |    \  | \/  \  ___/ \___ \   \        /|    |  / /     /_  |   Y  \  ___/|  | \/\  ___/ 
+\____|__  /__|  |__|\___  >____  >   \__/\  / |______/ /_______ \ |___|  /\___  >__|    \___  >
+        \/              \/     \/         \/                   \/      \/     \/            \/
 Then we need to add @cross_origin, so another site, our front end for example, can make a request of our endpoints.
 
 Next you'll define a function, where you'll basically do all the heavy lifting.
