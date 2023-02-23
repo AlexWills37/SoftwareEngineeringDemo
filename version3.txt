@@ -33,3 +33,9 @@ void ShowButton()
 	button.show();
 }
 
+Time to add a frontend feature for online multiplayer
+void CreatePlayer()
+{
+    Player p = new RandomPlayer();
+    this.player = p;
+}
