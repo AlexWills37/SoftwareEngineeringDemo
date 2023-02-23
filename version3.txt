@@ -1,0 +1,11 @@
+This is the backend developer speaking!!!
+I will write backend code for the button.
+
+
+void OnButtonClick(Event e)
+{
+  if (e.type == Event.CLICK)
+  {
+    OpenMagicWandWindow();
+  }
+}
