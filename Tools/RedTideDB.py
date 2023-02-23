@@ -155,6 +155,7 @@ def main():
     client = RedTideDB()
     client.addYoutubeVideo("R7t7qrH_dsc", 'trending')
     client.close()
+    num = 1
 
 
 if __name__ == "__main__":
