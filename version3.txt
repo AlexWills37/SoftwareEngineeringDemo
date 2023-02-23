@@ -11,9 +11,19 @@ void OnButtonClick(Event e)
 }
 
 
+
 This is the backend develper again!!! I forgot to add the magic wand!
 
 void OpenMagicWandWindow()
 {
   MagicWand wand = new MagicWand();
 }
+
+This is the frontend developer!! I am now adding a function to show the button
+
+void ShowButton()
+{
+	Button button = new Button(buttonText = "button");
+	button.show();
+}
+
