@@ -10,7 +10,13 @@ void OnButtonClick(Event e)
   }
 }
 
-
+ANOTHER BACKEND FEATURE!!!
+void OnlineMultiplayer(string ipaddress)
+{
+	internet.connect(ipaddress);
+	internet.createPlayer(this.username);
+	internet.keepConnectionOpen();
+}
 
 This is the backend develper again!!! I forgot to add the magic wand!
 
