@@ -9,3 +9,11 @@ void OnButtonClick(Event e)
     OpenMagicWandWindow();
   }
 }
+
+
+This is the backend develper again!!! I forgot to add the magic wand!
+
+void OpenMagicWandWindow()
+{
+  MagicWand wand = new MagicWand();
+}
